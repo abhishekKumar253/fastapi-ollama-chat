@@ -13,13 +13,19 @@ A FastAPI-based chatbot using **Ollama** for local AI-powered responses. Support
 ### 1️⃣ Clone the Repository  
 ```sh
 git clone https://github.com/abhishekKumar253/fastapi-ollama-chat.git  
-cd fastapi-ollama-chat   
+cd fastapi-ollama-chat  
+  
 
 2️⃣ Create & Activate Virtual Environment
-python -m venv myenv
-myenv\Scripts\activate
+python -m venv myenv  
+myenv\Scripts\activate  # Windows  
+source myenv/bin/activate  # macOS/Linux  
 
-3️⃣ Run FastAPI Server
+3️⃣ Install Dependencies  
+
+pip install -r requirements.txt  
+
+4️⃣ Run FastAPI Server
 
 uvicorn main:app --reload  
 
