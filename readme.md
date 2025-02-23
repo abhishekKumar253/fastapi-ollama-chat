@@ -41,7 +41,7 @@ fastapi-ollama-chat/
 │   ├── services/
 │   │   ├── ollama_service.py  # AI processing logic
 │   ├── main.py  # FastAPI application entry point
-│── myenv/  # Virtual environment (excluded in .gitignore)
+│── myenv/  # Virtual environment 
 │── .gitignore  # Excludes unnecessary files from version control
 │── requirements.txt  # Dependencies list
 │── README.md  # Project documentation
