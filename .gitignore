@@ -1,0 +1,30 @@
+# Virtual Environment
+myenv/
+venv/
+.env
+
+# Byte-compiled / Cached files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs & Debugging Files
+logs/
+*.log
+
+# OS-Specific Files (Windows, macOS, Linux)
+.DS_Store
+Thumbs.db
+
+# IDE / Editor Specific Files
+.vscode/
+.idea/
+*.swp
+
+# Dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Ollama Model Cache (if applicable)
+.ollama/
