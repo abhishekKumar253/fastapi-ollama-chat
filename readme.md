@@ -3,11 +3,10 @@
 A FastAPI-based chatbot using **Ollama** for local AI-powered responses. Supports real-time chat via Swagger UI.  
 
 ## 🔥 Features  
-✅ FastAPI + Ollama - Harness the power of FastAPI and Ollama for intelligent AI responses.
-✅ Streaming Responses - Get responses in real-time for a seamless chat experience.
-✅ Interactive API Docs - Use the built-in Swagger UI (/docs) for easy API testing.
-✅ Lightweight & Fast - Minimal dependencies with high efficiency.
-✅ Easy Deployment - Run locally or deploy on a server with minimal configuration. 
+- FastAPI + Ollama for AI responses  
+- Streaming responses  
+- Swagger UI for easy testing (`/docs`)  
+- Simple & fast setup   
 
 ## 🛠 Installation  
 
