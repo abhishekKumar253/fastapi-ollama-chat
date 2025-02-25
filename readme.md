@@ -1,47 +1,71 @@
-# 🚀 FastAPI Ollama Chatbot 
+# 🚀 FastAPI + Ollama Chatbot
 
-A FastAPI-based chatbot using **Ollama** for local AI-powered responses. Supports real-time chat via Swagger UI.  
+A **FastAPI-based** chatbot using **Ollama** for local AI-powered responses. This project includes both **backend** (FastAPI + Ollama) and **frontend** (React) for real-time interactions.
 
-## 🔥 Features  
-- FastAPI + Ollama for AI responses  
-- Streaming responses  
-- Swagger UI for easy testing (`/docs`)  
-- Simple & fast setup   
+## 🔥 Features
 
-## 🛠 Installation  
+### Backend
+- **FastAPI + Ollama** for AI responses
+- **Streaming responses** for real-time chat
+- **Swagger UI** for testing at `/docs`
+- **Simple & fast setup**
 
-### 1️⃣ Clone the Repository  
+### Frontend
+- **React** for user interface
+- **Real-time chat interface** with input and messages
+- **Axios** for API communication with the backend
+- **State management** using React `useState`
+
+## 🛠 Installation
+
+### 1️⃣ Clone the Repository
 ```sh
- git clone https://github.com/abhishekKumar253/fastapi-ollama-chat.git  
- cd fastapi-ollama-chat 
+git clone https://github.com/abhishekKumar253/fastapi-ollama-chat.git
+cd fastapi-ollama-chat
 
-2️⃣ Create & Activate Virtual Environment
+
+2️⃣ Set Up the Virtual Environment (Backend)
 python -m venv myenv  
 myenv\Scripts\activate  # Windows  
 source myenv/bin/activate  # macOS/Linux  
 
-3️⃣ Install Dependencies  
+3️⃣ Install Backend Dependencies  
+cd app
+pip install -r requirements.txt
 
-pip install -r requirements.txt  
+4️⃣ Run the Backend Server
 
-4️⃣ Run the FastAPI Server
-
-uvicorn app.main:app --reload   
+uvicorn app.main:app --reload
 
 5️⃣ Test the API via Swagger UI
 Open your browser and go to:
 http://127.0.0.1:8000/docs
 
+6️⃣  Set Up the Frontend (React)
+ - Navigate to the frontend folder:
+    cd frontend
+ - Install the dependencies:
+    npm install
+ - Run the development server:
+    npm run dev
+
 📂 Project Structure
 fastapi-ollama-chat/
-│── app/
-│   ├── routes/
-│   │   ├── chat.py  # Handles chat interactions
-│   ├── services/
-│   │   ├── ollama_service.py  # AI processing logic
-│   ├── main.py  # FastAPI application entry point
-│── myenv/  # Virtual environment 
-│── .gitignore  # Excludes unnecessary files from version control
-│── requirements.txt  # Dependencies list
-│── README.md  # Project documentation
+│── app/                              # Backend (FastAPI) Code
+│   ├── routes/                       # API Route Handlers
+│   │   ├── chat.py                   # Handles chat interactions
+│   ├── services/                     # Backend Logic
+│   │   ├── ollama_service.py         # AI logic (Ollama interaction)
+│   ├── main.py                       # FastAPI application entry point
+│   ├── myenv/                        # Virtual environment (Backend)
+│   ├── requirements.txt              # Backend dependencies
+│── frontend/                         # Frontend (React) Code
+│   ├── src/                          # React source code
+│   │   ├── components/               # React components (e.g., Chat)
+│   │   ├── App.js                    # Main React app component
+│   │   ├── services/                 # Frontend API service (Axios)
+│   ├── package.json                  # Frontend dependencies
+│── .gitignore                        # Git ignore file
+│── README.md                         # Project documentation
+
 
