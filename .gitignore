@@ -1,19 +1,21 @@
 # Backend-specific
-backend/myenv/               # Virtual environment (only inside backend)
-*.pyc                        # Python compiled files
+backend/app/routes/__pycache__/  # Ignore __pycache__ in the routes folder
+backend/app/server/__pycache__/  # Ignore __pycache__ in the server folder
+backend/myenv/                   # Virtual environment (only inside backend)
+*.pyc                            # Python compiled files
 *.pyo
-backend/**/__pycache__/      # Ignore all __pycache__ folders in backend
+__pycache__/                     # Global Python cache
 
 # Node modules for frontend
-frontend/node_modules/       # Node.js dependencies
+frontend/node_modules/           # Node.js dependencies
 
 # Editor and IDE files
-.vscode/                     # VSCode editor settings
-.idea/                       # JetBrains IDE settings
+.vscode/                         # VSCode editor settings
+.idea/                           # JetBrains IDE settings
 
 # OS-specific files
-.DS_Store                    # macOS file
-Thumbs.db                    # Windows file
+.DS_Store                        # macOS file
+Thumbs.db                        # Windows file
 
 # Log files
 *.log
