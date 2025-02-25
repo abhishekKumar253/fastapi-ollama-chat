@@ -1,28 +1,29 @@
 # 🚀 FastAPI + Ollama Chatbot
 
-A **FastAPI-based** chatbot using **Ollama** for local AI-powered responses. This project includes both **backend** (FastAPI + Ollama) and **frontend** (React) for real-time interactions.
+A **FastAPI-based** chatbot using **Ollama** for local AI-powered responses. This project integrates both **backend** (FastAPI + Ollama) and **frontend** (React) for seamless real-time interactions.
 
 ## 🔥 Features
 
 ### Backend
-- **FastAPI + Ollama** for AI responses
-- **Streaming responses** for real-time chat
-- **Swagger UI** for testing at `/docs`
-- **Simple & fast setup**
+- **FastAPI + Ollama** for AI responses.
+- **Streaming responses** for real-time chat.
+- **Swagger UI** for easy testing at `/docs`.
+- **Simple & fast setup** for quick deployment.
 
 ### Frontend
-- **React** for user interface
-- **Real-time chat interface** with input and messages
-- **Axios** for API communication with the backend
-- **State management** using React `useState`
+- **React** for the user interface.
+- **Real-time chat interface** with message input and display.
+- **Axios** for smooth API communication with the backend.
+- **State management** using React’s `useState`.
 
-## 🛠 Installation
+## 🛠 Installation Guide
+
+Follow these steps to get the project up and running:
 
 ### 1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/abhishekKumar253/fastapi-ollama-chat.git
 cd fastapi-ollama-chat
-
 
 2️⃣ Set Up the Virtual Environment (Backend)
 python -m venv myenv  
@@ -69,3 +70,8 @@ fastapi-ollama-chat/
 │── README.md                         # Project documentation
 
 
+## 🎥 Working Demo
+
+Experience the magic of the chatbot in action! Watch the demo below to see how it works:
+
+[Watch the demo video](https://www.loom.com/share/377492702a4943489e6bf64fc9c9d62c?sid=f4ea9cde-04b1-4af4-8b9b-853f5c41f497)
