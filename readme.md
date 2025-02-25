@@ -16,6 +16,12 @@ A **FastAPI-based** chatbot using **Ollama** for local AI-powered responses. Thi
 - **Axios** for smooth API communication with the backend.
 - **State management** using React’s `useState`.
 
+🎥 Working Demo
+
+Experience the magic of the chatbot in action! Watch the demo below to see how it works:
+
+[Watch the demo video](https://www.loom.com/share/377492702a4943489e6bf64fc9c9d62c?sid=f4ea9cde-04b1-4af4-8b9b-853f5c41f497)
+
 ## 🛠 Installation Guide
 
 Follow these steps to get the project up and running:
@@ -70,8 +76,4 @@ fastapi-ollama-chat/
 │── README.md                         # Project documentation
 
 
-## 🎥 Working Demo
 
-Experience the magic of the chatbot in action! Watch the demo below to see how it works:
-
-[Watch the demo video](https://www.loom.com/share/377492702a4943489e6bf64fc9c9d62c?sid=f4ea9cde-04b1-4af4-8b9b-853f5c41f497)
