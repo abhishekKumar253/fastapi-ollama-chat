@@ -2,8 +2,7 @@
 backend/myenv/               # Virtual environment (only inside backend)
 *.pyc                        # Python compiled files
 *.pyo
-backend/app/__pycache__/
-               
+backend/**/__pycache__/      # Ignore all __pycache__ folders in backend
 
 # Node modules for frontend
 frontend/node_modules/       # Node.js dependencies
